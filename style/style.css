@@ -164,8 +164,11 @@ body {
 .bottom {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 70px;
-    opacity: 0.3
+    margin-top: 60px;
+}
+
+.bottom-item {
+    opacity: 0.3;
 }
 
 .choice {
@@ -231,4 +234,62 @@ body {
 
 .top + .bottom {
     margin-top: 35px;
+}
+
+.traffic {
+    min-height: 700px;
+}
+
+.traffic__inner {
+    display: flex;
+}
+
+.traffic__left {
+    width: 50%;
+}
+
+.traffic__left-heading {
+    color: #99EFD0;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 205px;
+    letter-spacing: 1.5px;
+}
+
+.traffic__left-heading span{
+    color: #F2994A;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.traffic__left-descr {
+    color: #8476AA;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    margin-top: 32px;
+}
+
+.traffic__left-link, a{
+    display: inline-block;
+}
+
+.traffic__left-link {
+    background-color: #F2994A;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    color: white;
+    margin-top: 43px;
+}
+
+.traffic__right {
+    width: 50%;
+    text-align: center;
+}
+
+.traffic__right-image {
+    margin-top: 150px;
 }
