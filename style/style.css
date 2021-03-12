@@ -8,8 +8,11 @@ a{
     text-decoration: none;
 }
 
-body {
+p {
     color: #8476AA;
+}
+
+body {
     height: 100%;
     background-color: #3B1D60;
     background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
