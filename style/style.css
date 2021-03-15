@@ -388,3 +388,54 @@ body {
     margin-top: 50px;
 }
 
+.bussines {
+    min-height: 600px;
+    margin-top: 50px;
+}
+
+.bussines-inner {
+    display: flex;
+}
+
+.bussines__left {
+    width: 50%;
+}
+
+.bussines__left-heading {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    margin-top: 100px;
+}
+
+.bussines__left-descr {
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    margin-top: 35px;
+}
+
+.bussines__left-link {
+    background-color: #F2994A;
+    color: #fff;
+    border: 1px solid #F2994A;
+    border-radius: 4px;
+    padding: 17px 31px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.bussines__right {
+    background-image: url(../img/img-map.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 50%;
+}
+
+.bussines__right-img {
+    margin:  0 auto;
+    margin-top: 50px;
+}
